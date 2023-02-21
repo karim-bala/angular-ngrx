@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="col-50">
+    <app-annonces-total [total]="total$ | async"> </app-annonces-total>
+
+    <app-annonces-list
+      [annonces]="annonces$ | async"
+      (select)="onSelect($event)"
+      (delete)="onDelete($event)"
+    >
+    </app-annonces-list>
+  </div>
+
+  <app-annonce-detail
+    class="col-50"
+    [annonce]="currentAnnonce$ | async"
+    (save)="onSave($event)"
+    (cancel)="onCancel()"
+  >
+  </app-annonce-detail>
+</div>

@@ -1,0 +1,20 @@
+{
+  "annonces": [
+    {
+      "id": "69e8107b-aca7-4b22-89b4-142b2a148b0c",
+      "name": "Bala abdelkarim",
+      "cityOut": "algiers",
+      "cityIn": "oran",
+      "earnings": "120000",
+      "description": "wow !!!!!!!!"
+    },
+    {
+      "id": "725f6ec8-d439-4fbf-9e54-58dfae7769bc",
+      "name": "Mehadjbia abdelhak",
+      "cityOut": "algiers",
+      "cityIn": "annaba",
+      "earnings": "19000",
+      "description": "goodmourning !!!!!!!!"
+    }
+  ]
+}
